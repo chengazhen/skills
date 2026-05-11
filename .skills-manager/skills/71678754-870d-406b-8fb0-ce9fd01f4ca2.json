@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "71678754-870d-406b-8fb0-ce9fd01f4ca2",
+  "path": "sop-guide",
+  "path_key": "sop-guide",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

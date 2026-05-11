@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "scenario_id": "d5c55016-c375-486e-8165-d1c0d5749899",
+  "name": "前端开发",
+  "description": null,
+  "icon": "flask-conical",
+  "sort_order": 999
+}
