@@ -4,7 +4,9 @@
   "path": "systematic-debugging",
   "path_key": "systematic-debugging",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "QA"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "obra/superpowers/systematic-debugging",

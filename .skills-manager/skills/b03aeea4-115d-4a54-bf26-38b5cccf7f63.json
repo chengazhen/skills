@@ -4,7 +4,9 @@
   "path": "sop-creator",
   "path_key": "sop-creator",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "文档制作"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "ognjengt/founder-skills/sop-creator",

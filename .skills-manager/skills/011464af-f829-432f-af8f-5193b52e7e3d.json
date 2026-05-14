@@ -4,7 +4,9 @@
   "path": "vitest",
   "path_key": "vitest",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "前端开发"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "antfu/skills/vitest",

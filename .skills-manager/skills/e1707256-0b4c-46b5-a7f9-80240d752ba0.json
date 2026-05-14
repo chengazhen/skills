@@ -4,7 +4,9 @@
   "path": "vite",
   "path_key": "vite",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "前端开发"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "antfu/skills/vite",

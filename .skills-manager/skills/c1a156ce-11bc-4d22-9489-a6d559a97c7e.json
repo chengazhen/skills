@@ -4,7 +4,9 @@
   "path": "antfu",
   "path_key": "antfu",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "前端开发"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "antfu/skills/antfu",

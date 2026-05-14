@@ -4,7 +4,9 @@
   "path": "verification-before-completion",
   "path_key": "verification-before-completion",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "工作流"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "obra/superpowers/verification-before-completion",

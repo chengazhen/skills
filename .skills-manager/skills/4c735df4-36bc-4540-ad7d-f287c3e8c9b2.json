@@ -4,7 +4,9 @@
   "path": "writing-skills",
   "path_key": "writing-skills",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "核心技能"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "obra/superpowers/writing-skills",

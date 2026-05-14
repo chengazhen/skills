@@ -4,7 +4,9 @@
   "path": "vue-router-best-practices",
   "path_key": "vue-router-best-practices",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "Vue生态"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "antfu/skills/vue-router-best-practices",

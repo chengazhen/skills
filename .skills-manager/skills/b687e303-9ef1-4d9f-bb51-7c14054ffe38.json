@@ -4,7 +4,10 @@
   "path": "vk-unicloud-dev",
   "path_key": "vk-unicloud-dev",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "UniApp",
+    "UniCloud"
+  ],
   "source": {
     "type": "local",
     "ref": null,

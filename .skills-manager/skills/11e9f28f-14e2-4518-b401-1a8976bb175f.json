@@ -4,7 +4,9 @@
   "path": "alova-api-module",
   "path_key": "alova-api-module",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "UniApp"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "wot-ui/wot-starter/alova-api-module",

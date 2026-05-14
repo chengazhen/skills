@@ -4,7 +4,10 @@
   "path": "pinia",
   "path_key": "pinia",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "Vue生态",
+    "前端开发"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "antfu/skills/pinia",

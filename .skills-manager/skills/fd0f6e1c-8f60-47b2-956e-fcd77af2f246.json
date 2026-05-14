@@ -4,7 +4,10 @@
   "path": "prd-to-plan",
   "path_key": "prd-to-plan",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "PRD",
+    "任务计划"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "mattpocock/skills/prd-to-plan",

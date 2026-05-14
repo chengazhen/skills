@@ -4,7 +4,9 @@
   "path": "vue-composable-creator",
   "path_key": "vue-composable-creator",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "Vue生态"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "wot-ui/wot-starter/vue-composable-creator",

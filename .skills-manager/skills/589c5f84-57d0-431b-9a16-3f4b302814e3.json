@@ -4,7 +4,9 @@
   "path": "to-prd",
   "path_key": "to-prd",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "PRD"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "mattpocock/skills/to-prd",

@@ -4,7 +4,9 @@
   "path": "uni-page-generator",
   "path_key": "uni-page-generator",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "UniApp"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "wot-ui/wot-starter/uni-page-generator",

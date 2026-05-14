@@ -4,7 +4,9 @@
   "path": "vitepress",
   "path_key": "vitepress",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "前端开发"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "antfu/skills/vitepress",

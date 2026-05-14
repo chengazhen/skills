@@ -4,7 +4,9 @@
   "path": "find-skills",
   "path_key": "find-skills",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "核心技能"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "vercel-labs/skills/find-skills",

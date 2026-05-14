@@ -4,7 +4,10 @@
   "path": "brainstorming",
   "path_key": "brainstorming",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "PRD",
+    "产品经理"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "obra/superpowers/brainstorming",

@@ -4,7 +4,10 @@
   "path": "subagent-driven-development",
   "path_key": "subagent-driven-development",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "PRD",
+    "文档制作"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "obra/superpowers/subagent-driven-development",

@@ -4,7 +4,9 @@
   "path": "using-superpowers",
   "path_key": "using-superpowers",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "核心技能"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "obra/superpowers/using-superpowers",

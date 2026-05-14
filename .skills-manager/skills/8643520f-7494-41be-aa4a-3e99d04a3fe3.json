@@ -4,7 +4,10 @@
   "path": "wot-router-usage",
   "path_key": "wot-router-usage",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "UniApp",
+    "前端开发"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "wot-ui/wot-starter/wot-router-usage",

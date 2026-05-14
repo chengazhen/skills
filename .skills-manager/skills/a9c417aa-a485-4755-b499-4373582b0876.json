@@ -4,7 +4,9 @@
   "path": "smart-docs",
   "path_key": "smart-docs",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "文档制作"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "sopaco/deepwiki-rs/smart-docs",

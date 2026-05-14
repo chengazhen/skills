@@ -4,7 +4,9 @@
   "path": "uni-helper",
   "path_key": "uni-helper",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "UniApp"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "uni-helper/skills/uni-helper",

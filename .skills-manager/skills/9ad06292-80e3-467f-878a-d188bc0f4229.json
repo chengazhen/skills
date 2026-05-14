@@ -4,7 +4,10 @@
   "path": "breakdown-feature-prd",
   "path_key": "breakdown-feature-prd",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "PRD",
+    "产品经理"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "github/awesome-copilot/breakdown-feature-prd",

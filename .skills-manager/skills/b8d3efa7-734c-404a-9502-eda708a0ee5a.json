@@ -4,7 +4,9 @@
   "path": "prd",
   "path_key": "prd",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "文档制作"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "github/awesome-copilot/prd",

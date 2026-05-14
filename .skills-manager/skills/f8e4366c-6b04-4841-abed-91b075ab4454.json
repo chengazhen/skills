@@ -4,7 +4,9 @@
   "path": "executing-plans",
   "path_key": "executing-plans",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "任务计划"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "obra/superpowers/executing-plans",

@@ -4,7 +4,9 @@
   "path": "skill-creator",
   "path_key": "skill-creator",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "UniApp"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "wot-ui/wot-starter/skill-creator",

@@ -4,7 +4,9 @@
   "path": "vue",
   "path_key": "vue",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "Vue生态"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "antfu/skills/vue",

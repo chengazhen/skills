@@ -4,7 +4,9 @@
   "path": "vue-expert",
   "path_key": "vue-expert",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "Vue生态"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "jeffallan/claude-skills/vue-expert",

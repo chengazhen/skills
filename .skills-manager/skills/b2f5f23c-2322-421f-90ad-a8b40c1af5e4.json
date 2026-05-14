@@ -4,7 +4,10 @@
   "path": "wot-ui",
   "path_key": "wot-ui",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "UniApp",
+    "前端开发"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "wot-ui/wot-starter/wot-ui",

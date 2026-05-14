@@ -4,7 +4,9 @@
   "path": "web-design-guidelines",
   "path_key": "web-design-guidelines",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "UI设计"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "antfu/skills/web-design-guidelines",

@@ -4,7 +4,9 @@
   "path": "nuxt",
   "path_key": "nuxt",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "Vue生态"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "antfu/skills/nuxt",

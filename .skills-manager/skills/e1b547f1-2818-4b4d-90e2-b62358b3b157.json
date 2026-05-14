@@ -4,7 +4,9 @@
   "path": "pinia-store-generator",
   "path_key": "pinia-store-generator",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "UniApp"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "wot-ui/wot-starter/pinia-store-generator",

@@ -4,7 +4,9 @@
   "path": "sop-guide",
   "path_key": "sop-guide",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "文档制作"
+  ],
   "source": {
     "type": "local",
     "ref": null,

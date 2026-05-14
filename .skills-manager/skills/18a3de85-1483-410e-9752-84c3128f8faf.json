@@ -4,7 +4,9 @@
   "path": "write-a-skill",
   "path_key": "write-a-skill",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "核心技能"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "mattpocock/skills/write-a-skill",

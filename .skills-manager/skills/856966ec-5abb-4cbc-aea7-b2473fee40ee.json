@@ -4,7 +4,11 @@
   "path": "grill-me",
   "path_key": "grill-me",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "工作流",
+    "文档制作",
+    "核心技能"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "mattpocock/skills/grill-me",

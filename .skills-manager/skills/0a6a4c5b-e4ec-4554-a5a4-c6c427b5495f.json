@@ -4,7 +4,10 @@
   "path": "unocss",
   "path_key": "unocss",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "UniApp",
+    "前端开发"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "antfu/skills/unocss",

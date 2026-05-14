@@ -4,7 +4,11 @@
   "path": "grill-with-docs",
   "path_key": "grill-with-docs",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "工作流",
+    "文档制作",
+    "核心技能"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "mattpocock/skills/grill-with-docs",

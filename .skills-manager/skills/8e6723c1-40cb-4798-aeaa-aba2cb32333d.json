@@ -4,7 +4,9 @@
   "path": "write-a-prd",
   "path_key": "write-a-prd",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "PRD"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "mattpocock/skills/write-a-prd",

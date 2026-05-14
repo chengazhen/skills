@@ -4,7 +4,9 @@
   "path": "copywriting",
   "path_key": "copywriting",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "文档制作"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "coreyhaines31/marketingskills/copywriting",

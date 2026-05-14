@@ -4,7 +4,9 @@
   "path": "starter-cleaner",
   "path_key": "starter-cleaner",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "UniApp"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "wot-ui/wot-starter/starter-cleaner",
