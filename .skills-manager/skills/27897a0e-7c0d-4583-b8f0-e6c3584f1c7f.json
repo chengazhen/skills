@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "27897a0e-7c0d-4583-b8f0-e6c3584f1c7f",
+  "path": "dataverse-python-usecase-builder",
+  "path_key": "dataverse-python-usecase-builder",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "github/awesome-copilot/dataverse-python-usecase-builder",
+    "subpath": "skills\\dataverse-python-usecase-builder",
+    "branch": null
+  }
+}

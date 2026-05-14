@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a1ef8e14-10bf-40d4-a7bd-1e872008e566",
+  "path": "dataverse-python-quickstart",
+  "path_key": "dataverse-python-quickstart",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "github/awesome-copilot/dataverse-python-quickstart",
+    "subpath": "skills\\dataverse-python-quickstart",
+    "branch": null
+  }
+}

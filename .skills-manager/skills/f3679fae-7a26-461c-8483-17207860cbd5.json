@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f3679fae-7a26-461c-8483-17207860cbd5",
+  "path": "python-design-patterns",
+  "path_key": "python-design-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "wshobson/agents/python-design-patterns",
+    "subpath": "plugins\\python-development\\skills\\python-design-patterns",
+    "branch": null
+  }
+}

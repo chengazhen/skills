@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "83cb1241-47e0-4423-bc28-d6efbbd033c7",
+  "path": "python-type-safety",
+  "path_key": "python-type-safety",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "wshobson/agents/python-type-safety",
+    "subpath": "plugins\\python-development\\skills\\python-type-safety",
+    "branch": null
+  }
+}

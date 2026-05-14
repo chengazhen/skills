@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a1aecc16-14ff-47d9-a209-22dc2ad39556",
+  "path": "sql-optimization-patterns",
+  "path_key": "sql-optimization-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "wshobson/agents/sql-optimization-patterns",
+    "subpath": "plugins\\developer-essentials\\skills\\sql-optimization-patterns",
+    "branch": null
+  }
+}

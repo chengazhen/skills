@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "43e14cea-493d-48c3-b413-1c2ca8b1d433",
+  "path": "dataverse-python-advanced-patterns",
+  "path_key": "dataverse-python-advanced-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "github/awesome-copilot/dataverse-python-advanced-patterns",
+    "subpath": "skills\\dataverse-python-advanced-patterns",
+    "branch": null
+  }
+}

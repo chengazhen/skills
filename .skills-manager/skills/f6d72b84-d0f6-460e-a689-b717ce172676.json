@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f6d72b84-d0f6-460e-a689-b717ce172676",
+  "path": "design-system-patterns",
+  "path_key": "design-system-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "wshobson/agents/design-system-patterns",
+    "subpath": "plugins\\ui-design\\skills\\design-system-patterns",
+    "branch": null
+  }
+}
