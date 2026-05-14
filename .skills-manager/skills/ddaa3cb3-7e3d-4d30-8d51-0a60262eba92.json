@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ddaa3cb3-7e3d-4d30-8d51-0a60262eba92",
+  "path": "verification-before-completion",
+  "path_key": "verification-before-completion",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/TangTank/skills",
+    "subpath": "verification-before-completion",
+    "branch": null
+  }
+}

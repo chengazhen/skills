@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "94183fbc-edde-49ea-b2fa-c37bedfab3a1",
+  "path": "sop-guide",
+  "path_key": "sop-guide",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/TangTank/skills",
+    "subpath": "sop-guide",
+    "branch": null
+  }
+}

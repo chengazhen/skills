@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "70b2701e-ce59-4b43-b80a-dd8283f4ba5e",
+  "path": "breakdown-feature-prd",
+  "path_key": "breakdown-feature-prd",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/TangTank/skills",
+    "subpath": "breakdown-feature-prd",
+    "branch": null
+  }
+}

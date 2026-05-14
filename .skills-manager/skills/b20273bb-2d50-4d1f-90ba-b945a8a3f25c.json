@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b20273bb-2d50-4d1f-90ba-b945a8a3f25c",
+  "path": "skill-creator",
+  "path_key": "skill-creator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/TangTank/skills",
+    "subpath": "skill-creator",
+    "branch": null
+  }
+}

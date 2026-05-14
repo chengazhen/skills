@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "865fc395-1d0f-4588-9d80-1932a5242c76",
+  "path": "pinia",
+  "path_key": "pinia",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/TangTank/skills",
+    "subpath": "pinia",
+    "branch": null
+  }
+}

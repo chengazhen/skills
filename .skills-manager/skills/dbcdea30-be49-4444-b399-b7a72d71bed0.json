@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "dbcdea30-be49-4444-b399-b7a72d71bed0",
+  "path": "requesting-code-review",
+  "path_key": "requesting-code-review",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/TangTank/skills",
+    "subpath": "requesting-code-review",
+    "branch": null
+  }
+}

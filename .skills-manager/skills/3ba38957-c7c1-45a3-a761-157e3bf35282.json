@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3ba38957-c7c1-45a3-a761-157e3bf35282",
+  "path": "writing-skills",
+  "path_key": "writing-skills",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/TangTank/skills",
+    "subpath": "writing-skills",
+    "branch": null
+  }
+}

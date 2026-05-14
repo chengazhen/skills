@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8b566af1-374f-4f28-ac65-b322c8f251f7",
+  "path": "sop-creator",
+  "path_key": "sop-creator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/TangTank/skills",
+    "subpath": "sop-creator",
+    "branch": null
+  }
+}

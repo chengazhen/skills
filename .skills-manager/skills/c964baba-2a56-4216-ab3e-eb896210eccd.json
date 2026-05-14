@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c964baba-2a56-4216-ab3e-eb896210eccd",
+  "path": "dispatching-parallel-agents",
+  "path_key": "dispatching-parallel-agents",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/TangTank/skills",
+    "subpath": "dispatching-parallel-agents",
+    "branch": null
+  }
+}

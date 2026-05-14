@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d80f6973-295b-4452-a472-12ade6bf9fa7",
+  "path": "web-design-guidelines",
+  "path_key": "web-design-guidelines",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/TangTank/skills",
+    "subpath": "web-design-guidelines",
+    "branch": null
+  }
+}

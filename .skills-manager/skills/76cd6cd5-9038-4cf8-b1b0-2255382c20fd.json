@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "76cd6cd5-9038-4cf8-b1b0-2255382c20fd",
+  "path": "jackyun",
+  "path_key": "jackyun",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/TangTank/skills",
+    "subpath": "jackyun",
+    "branch": null
+  }
+}

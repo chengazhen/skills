@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5462e0f8-a166-4ed2-98a5-37b8d5b791f2",
+  "path": "grill-me",
+  "path_key": "grill-me",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/TangTank/skills",
+    "subpath": "grill-me",
+    "branch": null
+  }
+}

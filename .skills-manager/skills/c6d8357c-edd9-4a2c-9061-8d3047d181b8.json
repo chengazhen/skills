@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c6d8357c-edd9-4a2c-9061-8d3047d181b8",
+  "path": "finishing-a-development-branch",
+  "path_key": "finishing-a-development-branch",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/TangTank/skills",
+    "subpath": "finishing-a-development-branch",
+    "branch": null
+  }
+}

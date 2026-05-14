@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ec97f343-0386-4550-b99f-1755a3053a64",
+  "path": "writing-plans",
+  "path_key": "writing-plans",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/TangTank/skills",
+    "subpath": "writing-plans",
+    "branch": null
+  }
+}

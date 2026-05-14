@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bfe3b629-941a-4794-a96e-485dea8c4b72",
+  "path": "brainstorming",
+  "path_key": "brainstorming",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/TangTank/skills",
+    "subpath": "brainstorming",
+    "branch": null
+  }
+}

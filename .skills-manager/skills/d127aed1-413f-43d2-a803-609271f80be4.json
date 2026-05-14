@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d127aed1-413f-43d2-a803-609271f80be4",
+  "path": "nuxt",
+  "path_key": "nuxt",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/TangTank/skills",
+    "subpath": "nuxt",
+    "branch": null
+  }
+}

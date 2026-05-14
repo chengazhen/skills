@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "64c2bec7-c37e-456d-af46-6bce7aab2c1c",
+  "path": "to-prd",
+  "path_key": "to-prd",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/TangTank/skills",
+    "subpath": "to-prd",
+    "branch": null
+  }
+}
