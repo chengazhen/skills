@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3e6871c7-01af-4182-a5e0-172eb945e4ed",
+  "path": "vue-expert",
+  "path_key": "vue-expert",
+  "enabled": true,
+  "tags": [
+    "Vue生态"
+  ],
+  "source": {
+    "type": "skillssh",
+    "ref": "jeffallan/claude-skills/vue-expert",
+    "subpath": "skills\\vue-expert",
+    "branch": null
+  }
+}

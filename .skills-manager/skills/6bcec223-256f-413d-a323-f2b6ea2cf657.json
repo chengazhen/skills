@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6bcec223-256f-413d-a323-f2b6ea2cf657",
+  "path": "vue-testing-best-practices",
+  "path_key": "vue-testing-best-practices",
+  "enabled": true,
+  "tags": [
+    "Vue生态"
+  ],
+  "source": {
+    "type": "skillssh",
+    "ref": "antfu/skills/vue-testing-best-practices",
+    "subpath": "skills\\vue-testing-best-practices",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f5029749-4c96-4973-b154-d6afdddd3487",
+  "path": "slidev",
+  "path_key": "slidev",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "antfu/skills/slidev",
+    "subpath": "skills\\slidev",
+    "branch": null
+  }
+}

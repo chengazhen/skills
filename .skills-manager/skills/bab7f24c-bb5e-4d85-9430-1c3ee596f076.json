@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "bab7f24c-bb5e-4d85-9430-1c3ee596f076",
+  "path": "vue-best-practices",
+  "path_key": "vue-best-practices",
+  "enabled": true,
+  "tags": [
+    "Vue生态"
+  ],
+  "source": {
+    "type": "skillssh",
+    "ref": "antfu/skills/vue-best-practices",
+    "subpath": "skills\\vue-best-practices",
+    "branch": null
+  }
+}

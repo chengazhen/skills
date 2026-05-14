@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b03aeea4-115d-4a54-bf26-38b5cccf7f63",
+  "path": "sop-creator",
+  "path_key": "sop-creator",
+  "enabled": true,
+  "tags": [
+    "文档制作"
+  ],
+  "source": {
+    "type": "skillssh",
+    "ref": "ognjengt/founder-skills/sop-creator",
+    "subpath": "skills\\sop-creator",
+    "branch": null
+  }
+}

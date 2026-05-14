@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c1a156ce-11bc-4d22-9489-a6d559a97c7e",
+  "path": "antfu",
+  "path_key": "antfu",
+  "enabled": true,
+  "tags": [
+    "前端开发"
+  ],
+  "source": {
+    "type": "skillssh",
+    "ref": "antfu/skills/antfu",
+    "subpath": "skills\\antfu",
+    "branch": null
+  }
+}

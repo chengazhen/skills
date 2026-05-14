@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "733b8c87-63b2-4151-b35d-9a564b05ce52",
+  "path": "copywriting",
+  "path_key": "copywriting",
+  "enabled": true,
+  "tags": [
+    "文档制作"
+  ],
+  "source": {
+    "type": "skillssh",
+    "ref": "coreyhaines31/marketingskills/copywriting",
+    "subpath": "skills\\copywriting",
+    "branch": null
+  }
+}

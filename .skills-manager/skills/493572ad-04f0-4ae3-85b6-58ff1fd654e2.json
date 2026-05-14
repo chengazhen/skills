@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "493572ad-04f0-4ae3-85b6-58ff1fd654e2",
+  "path": "frontend-design",
+  "path_key": "frontend-design",
+  "enabled": true,
+  "tags": [
+    "UI设计",
+    "前端开发"
+  ],
+  "source": {
+    "type": "skillssh",
+    "ref": "anthropics/skills/frontend-design",
+    "subpath": "skills\\frontend-design",
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b8d3efa7-734c-404a-9502-eda708a0ee5a",
+  "path": "prd",
+  "path_key": "prd",
+  "enabled": true,
+  "tags": [
+    "文档制作"
+  ],
+  "source": {
+    "type": "skillssh",
+    "ref": "github/awesome-copilot/prd",
+    "subpath": "skills\\prd",
+    "branch": null
+  }
+}

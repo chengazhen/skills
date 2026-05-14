@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a98def2a-8e52-42cc-ba00-f6f141c4d5ce",
+  "path": "uni-app",
+  "path_key": "uni-app",
+  "enabled": true,
+  "tags": [
+    "UniApp"
+  ],
+  "source": {
+    "type": "skillssh",
+    "ref": "uni-helper/skills/uni-app",
+    "subpath": "skills\\uniapp",
+    "branch": null
+  }
+}

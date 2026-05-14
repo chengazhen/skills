@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "864a0fa8-6406-423f-ac9b-426d194b85e6",
+  "path": "web-design-guidelines",
+  "path_key": "web-design-guidelines",
+  "enabled": true,
+  "tags": [
+    "UI设计"
+  ],
+  "source": {
+    "type": "skillssh",
+    "ref": "antfu/skills/web-design-guidelines",
+    "subpath": "skills\\web-design-guidelines",
+    "branch": null
+  }
+}

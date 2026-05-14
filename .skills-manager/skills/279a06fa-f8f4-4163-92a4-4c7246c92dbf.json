@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "279a06fa-f8f4-4163-92a4-4c7246c92dbf",
+  "path": "starter-cleaner",
+  "path_key": "starter-cleaner",
+  "enabled": true,
+  "tags": [
+    "UniApp"
+  ],
+  "source": {
+    "type": "skillssh",
+    "ref": "wot-ui/wot-starter/starter-cleaner",
+    "subpath": ".agent\\skills\\starter-cleaner",
+    "branch": null
+  }
+}

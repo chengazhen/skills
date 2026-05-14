@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "626d0c8a-49b2-4b81-8e60-36a249792a23",
+  "path": "vue-composable-creator",
+  "path_key": "vue-composable-creator",
+  "enabled": true,
+  "tags": [
+    "Vue生态"
+  ],
+  "source": {
+    "type": "skillssh",
+    "ref": "wot-ui/wot-starter/vue-composable-creator",
+    "subpath": ".agent\\skills\\vue-composable-creator",
+    "branch": null
+  }
+}
