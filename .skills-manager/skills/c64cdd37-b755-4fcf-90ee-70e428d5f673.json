@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c64cdd37-b755-4fcf-90ee-70e428d5f673",
+  "path": "skill-creator",
+  "path_key": "skill-creator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "wot-ui/wot-starter/skill-creator",
+    "subpath": ".agent\\skills\\skill-creator",
+    "branch": null
+  }
+}
