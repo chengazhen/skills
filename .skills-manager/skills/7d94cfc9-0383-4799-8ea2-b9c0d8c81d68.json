@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7d94cfc9-0383-4799-8ea2-b9c0d8c81d68",
+  "path": "nuxt",
+  "path_key": "nuxt",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "nuxt",
+    "branch": null
+  }
+}

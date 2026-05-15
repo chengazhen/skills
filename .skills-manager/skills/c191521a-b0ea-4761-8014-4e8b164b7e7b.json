@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c191521a-b0ea-4761-8014-4e8b164b7e7b",
+  "path": "writing-plans",
+  "path_key": "writing-plans",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "writing-plans",
+    "branch": null
+  }
+}

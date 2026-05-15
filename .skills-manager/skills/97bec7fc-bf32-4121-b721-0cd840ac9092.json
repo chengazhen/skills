@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "97bec7fc-bf32-4121-b721-0cd840ac9092",
+  "path": "python-testing-patterns",
+  "path_key": "python-testing-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "python-testing-patterns",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a9f95ffb-79bd-40c5-a7f9-52e18db40b81",
+  "path": "receiving-code-review",
+  "path_key": "receiving-code-review",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "receiving-code-review",
+    "branch": null
+  }
+}

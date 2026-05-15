@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1529beea-aa2e-46c8-ba89-fa79e1f0d335",
+  "path": "test-driven-development",
+  "path_key": "test-driven-development",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "test-driven-development",
+    "branch": null
+  }
+}

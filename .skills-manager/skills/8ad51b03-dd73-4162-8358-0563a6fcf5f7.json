@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8ad51b03-dd73-4162-8358-0563a6fcf5f7",
+  "path": "api-design-principles",
+  "path_key": "api-design-principles",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "api-design-principles",
+    "branch": null
+  }
+}

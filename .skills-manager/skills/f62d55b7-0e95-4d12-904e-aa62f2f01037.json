@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f62d55b7-0e95-4d12-904e-aa62f2f01037",
+  "path": "vite",
+  "path_key": "vite",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "vite",
+    "branch": null
+  }
+}

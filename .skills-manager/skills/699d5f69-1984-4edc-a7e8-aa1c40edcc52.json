@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "699d5f69-1984-4edc-a7e8-aa1c40edcc52",
+  "path": "skill-creator",
+  "path_key": "skill-creator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "skill-creator",
+    "branch": null
+  }
+}

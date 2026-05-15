@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ee0aa9cd-01ae-4069-b5cb-07ac67785a39",
+  "path": "miniprogram-development",
+  "path_key": "miniprogram-development",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "miniprogram-development",
+    "branch": null
+  }
+}

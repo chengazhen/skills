@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "62c68323-c7cf-4dd2-b6e1-f259dcf21eb9",
+  "path": "tailwind-design-system",
+  "path_key": "tailwind-design-system",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "tailwind-design-system",
+    "branch": null
+  }
+}

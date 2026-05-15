@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b5acc8a7-ffcb-411f-9f2b-3a6ca49eec63",
+  "path": "frontend-design",
+  "path_key": "frontend-design",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "frontend-design-2",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3d1847d6-cdba-4c28-9e19-fafdda801efd",
+  "path": "find-skills",
+  "path_key": "find-skills",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "find-skills",
+    "branch": null
+  }
+}

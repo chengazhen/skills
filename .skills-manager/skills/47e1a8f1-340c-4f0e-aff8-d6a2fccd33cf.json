@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "47e1a8f1-340c-4f0e-aff8-d6a2fccd33cf",
+  "path": "dispatching-parallel-agents",
+  "path_key": "dispatching-parallel-agents",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "dispatching-parallel-agents",
+    "branch": null
+  }
+}

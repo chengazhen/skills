@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "53968ae1-b73b-4257-a963-0df778964116",
+  "path": "ui-ux-pro-max",
+  "path_key": "ui-ux-pro-max",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "ui-ux-pro-max",
+    "branch": null
+  }
+}

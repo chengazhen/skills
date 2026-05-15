@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "045ceba9-296d-4a78-a671-c438539a55bf",
+  "path": "alova-api-module",
+  "path_key": "alova-api-module",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "alova-api-module",
+    "branch": null
+  }
+}

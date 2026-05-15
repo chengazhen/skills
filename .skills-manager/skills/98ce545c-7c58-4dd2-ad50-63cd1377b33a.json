@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "98ce545c-7c58-4dd2-ad50-63cd1377b33a",
+  "path": "pptx",
+  "path_key": "pptx",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "pptx",
+    "branch": null
+  }
+}

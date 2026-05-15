@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b819a180-043f-429b-a393-af567b64aedb",
+  "path": "using-git-worktrees",
+  "path_key": "using-git-worktrees",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "using-git-worktrees",
+    "branch": null
+  }
+}

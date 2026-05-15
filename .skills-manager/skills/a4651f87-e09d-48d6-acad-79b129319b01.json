@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a4651f87-e09d-48d6-acad-79b129319b01",
+  "path": "subagent-driven-development",
+  "path_key": "subagent-driven-development",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "subagent-driven-development",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "64dcc869-39b4-49a9-aa18-0b1d80c7afdd",
+  "path": "finishing-a-development-branch",
+  "path_key": "finishing-a-development-branch",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "finishing-a-development-branch",
+    "branch": null
+  }
+}

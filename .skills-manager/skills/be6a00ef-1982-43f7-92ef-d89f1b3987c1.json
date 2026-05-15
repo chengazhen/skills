@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "be6a00ef-1982-43f7-92ef-d89f1b3987c1",
+  "path": "writing-skills",
+  "path_key": "writing-skills",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "writing-skills",
+    "branch": null
+  }
+}

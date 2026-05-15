@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "023219ea-43c9-41f4-b4cf-36f070dfd51f",
+  "path": "Skywork-ppt",
+  "path_key": "skywork-ppt",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "skywork-ppt",
+    "branch": null
+  }
+}

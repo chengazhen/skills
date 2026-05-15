@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "367c8d81-fa01-4b63-a949-ee921083a5fc",
+  "path": "vitest",
+  "path_key": "vitest",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "vitest",
+    "branch": null
+  }
+}

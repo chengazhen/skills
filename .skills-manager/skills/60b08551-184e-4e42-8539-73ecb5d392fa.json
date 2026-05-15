@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "60b08551-184e-4e42-8539-73ecb5d392fa",
+  "path": "smart-docs",
+  "path_key": "smart-docs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "smart-docs",
+    "branch": null
+  }
+}

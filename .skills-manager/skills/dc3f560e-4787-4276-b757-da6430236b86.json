@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "dc3f560e-4787-4276-b757-da6430236b86",
+  "path": "vue",
+  "path_key": "vue",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "vue",
+    "branch": null
+  }
+}

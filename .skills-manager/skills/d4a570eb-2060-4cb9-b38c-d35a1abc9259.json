@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d4a570eb-2060-4cb9-b38c-d35a1abc9259",
+  "path": "brainstorming",
+  "path_key": "brainstorming",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "brainstorming",
+    "branch": null
+  }
+}

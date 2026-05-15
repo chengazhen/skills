@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "052642a0-eb92-408b-a9d2-a952f58db653",
+  "path": "grill-with-docs",
+  "path_key": "grill-with-docs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "grill-with-docs",
+    "branch": null
+  }
+}

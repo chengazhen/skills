@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "15f9aba3-2884-4119-a865-84653521f4d2",
+  "path": "pinia",
+  "path_key": "pinia",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "pinia",
+    "branch": null
+  }
+}

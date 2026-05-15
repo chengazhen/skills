@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a25a32c8-14f7-48cc-98e3-cdfa4ae520d9",
+  "path": "grill-me",
+  "path_key": "grill-me",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "grill-me",
+    "branch": null
+  }
+}

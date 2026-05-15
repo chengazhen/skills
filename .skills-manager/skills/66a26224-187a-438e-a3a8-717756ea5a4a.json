@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "66a26224-187a-438e-a3a8-717756ea5a4a",
+  "path": "rust-async-patterns",
+  "path_key": "rust-async-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "rust-async-patterns",
+    "branch": null
+  }
+}

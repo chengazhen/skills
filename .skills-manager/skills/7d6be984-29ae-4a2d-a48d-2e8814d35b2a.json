@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7d6be984-29ae-4a2d-a48d-2e8814d35b2a",
+  "path": "breakdown-feature-prd",
+  "path_key": "breakdown-feature-prd",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "breakdown-feature-prd",
+    "branch": null
+  }
+}

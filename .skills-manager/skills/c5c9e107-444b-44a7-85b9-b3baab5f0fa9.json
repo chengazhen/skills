@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c5c9e107-444b-44a7-85b9-b3baab5f0fa9",
+  "path": "uni-helper",
+  "path_key": "uni-helper",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "uni-helper",
+    "branch": null
+  }
+}

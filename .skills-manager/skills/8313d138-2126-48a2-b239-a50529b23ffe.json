@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8313d138-2126-48a2-b239-a50529b23ffe",
+  "path": "python-performance-optimization",
+  "path_key": "python-performance-optimization",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "python-performance-optimization",
+    "branch": null
+  }
+}

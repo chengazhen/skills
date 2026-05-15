@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9756a717-b9ba-435b-a533-6ed4e3e46000",
+  "path": "vue-composable-creator",
+  "path_key": "vue-composable-creator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "vue-composable-creator",
+    "branch": null
+  }
+}

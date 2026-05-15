@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4724284a-5c1b-4d55-9431-c54af39c46e9",
+  "path": "database-migration",
+  "path_key": "database-migration",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "database-migration",
+    "branch": null
+  }
+}

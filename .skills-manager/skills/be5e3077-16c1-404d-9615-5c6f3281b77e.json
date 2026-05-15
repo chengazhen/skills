@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "be5e3077-16c1-404d-9615-5c6f3281b77e",
+  "path": "copywriting",
+  "path_key": "copywriting",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "copywriting",
+    "branch": null
+  }
+}

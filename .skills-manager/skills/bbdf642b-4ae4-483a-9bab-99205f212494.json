@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bbdf642b-4ae4-483a-9bab-99205f212494",
+  "path": "jackyun",
+  "path_key": "jackyun",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "jackyun",
+    "branch": null
+  }
+}

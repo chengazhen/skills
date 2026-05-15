@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "40893d75-08c9-4a5a-a1ee-77752a0504d2",
+  "path": "vitepress",
+  "path_key": "vitepress",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "vitepress",
+    "branch": null
+  }
+}

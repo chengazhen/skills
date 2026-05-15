@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6bc0b2ea-a00b-40e6-aa9e-8a6780dde09a",
+  "path": "vue-router-best-practices",
+  "path_key": "vue-router-best-practices",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "vue-router-best-practices",
+    "branch": null
+  }
+}

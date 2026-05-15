@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f3a85196-fd88-41c7-9b45-c20585f67b52",
+  "path": "sop-creator",
+  "path_key": "sop-creator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "sop-creator",
+    "branch": null
+  }
+}

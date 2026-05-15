@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9cddcb6e-db93-4647-9cad-2396452a670b",
+  "path": "verification-before-completion",
+  "path_key": "verification-before-completion",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "verification-before-completion",
+    "branch": null
+  }
+}

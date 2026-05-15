@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4e252035-08c5-4c72-998f-c7842d839d8d",
+  "path": "vk-unicloud-dev",
+  "path_key": "vk-unicloud-dev",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "vk-unicloud-dev",
+    "branch": null
+  }
+}

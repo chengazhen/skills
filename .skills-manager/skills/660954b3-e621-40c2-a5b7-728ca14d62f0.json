@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "660954b3-e621-40c2-a5b7-728ca14d62f0",
+  "path": "pnpm",
+  "path_key": "pnpm",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "pnpm",
+    "branch": null
+  }
+}

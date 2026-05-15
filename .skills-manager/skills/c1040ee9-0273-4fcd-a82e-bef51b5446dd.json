@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c1040ee9-0273-4fcd-a82e-bef51b5446dd",
+  "path": "sql-optimization-patterns",
+  "path_key": "sql-optimization-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "sql-optimization-patterns",
+    "branch": null
+  }
+}

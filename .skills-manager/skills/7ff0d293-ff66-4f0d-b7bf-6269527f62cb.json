@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7ff0d293-ff66-4f0d-b7bf-6269527f62cb",
+  "path": "starter-cleaner",
+  "path_key": "starter-cleaner",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "starter-cleaner",
+    "branch": null
+  }
+}

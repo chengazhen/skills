@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5ad8528e-0f83-4705-9c11-561841b5f673",
+  "path": "dataverse-python-production-code",
+  "path_key": "dataverse-python-production-code",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "dataverse-python-production-code",
+    "branch": null
+  }
+}

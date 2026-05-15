@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5d5e1f1f-4dfe-4695-ab5b-785bbdd488e6",
+  "path": "uni-page-generator",
+  "path_key": "uni-page-generator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "uni-page-generator",
+    "branch": null
+  }
+}

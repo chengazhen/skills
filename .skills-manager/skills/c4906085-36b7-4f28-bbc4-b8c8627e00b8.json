@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c4906085-36b7-4f28-bbc4-b8c8627e00b8",
+  "path": "python-packaging",
+  "path_key": "python-packaging",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "python-packaging",
+    "branch": null
+  }
+}

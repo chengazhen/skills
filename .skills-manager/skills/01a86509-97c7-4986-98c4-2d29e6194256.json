@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "01a86509-97c7-4986-98c4-2d29e6194256",
+  "path": "pinia-store-generator",
+  "path_key": "pinia-store-generator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "pinia-store-generator",
+    "branch": null
+  }
+}

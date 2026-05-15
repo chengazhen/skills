@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "338c2061-1400-419b-ad64-ed5e135454d6",
+  "path": "dataverse-python-advanced-patterns",
+  "path_key": "dataverse-python-advanced-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "dataverse-python-advanced-patterns",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "30655e18-5864-41ff-941f-4d138c898f83",
+  "path": "python-type-safety",
+  "path_key": "python-type-safety",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "python-type-safety",
+    "branch": null
+  }
+}

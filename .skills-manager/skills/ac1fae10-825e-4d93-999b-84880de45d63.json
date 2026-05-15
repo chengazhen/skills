@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ac1fae10-825e-4d93-999b-84880de45d63",
+  "path": "python-design-patterns",
+  "path_key": "python-design-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "python-design-patterns",
+    "branch": null
+  }
+}

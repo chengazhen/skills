@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2f677f14-fe9f-4217-878b-dffb84cfd720",
+  "path": "web-design-guidelines",
+  "path_key": "web-design-guidelines",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "web-design-guidelines",
+    "branch": null
+  }
+}

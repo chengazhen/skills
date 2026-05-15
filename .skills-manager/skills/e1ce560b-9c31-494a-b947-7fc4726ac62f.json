@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e1ce560b-9c31-494a-b947-7fc4726ac62f",
+  "path": "dataverse-python-usecase-builder",
+  "path_key": "dataverse-python-usecase-builder",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "dataverse-python-usecase-builder",
+    "branch": null
+  }
+}

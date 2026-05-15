@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fb024c7f-345b-4c8a-add3-698d85618223",
+  "path": "antfu",
+  "path_key": "antfu",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "antfu",
+    "branch": null
+  }
+}

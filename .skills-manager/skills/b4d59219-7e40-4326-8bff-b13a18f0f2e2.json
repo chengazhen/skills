@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b4d59219-7e40-4326-8bff-b13a18f0f2e2",
+  "path": "executing-plans",
+  "path_key": "executing-plans",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "executing-plans",
+    "branch": null
+  }
+}

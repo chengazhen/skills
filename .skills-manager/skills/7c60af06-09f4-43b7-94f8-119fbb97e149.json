@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7c60af06-09f4-43b7-94f8-119fbb97e149",
+  "path": "prd",
+  "path_key": "prd",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "prd",
+    "branch": null
+  }
+}

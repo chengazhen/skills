@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "efb1ebb1-a0e5-4e0f-8f09-6f139428557d",
+  "path": "python-project-structure",
+  "path_key": "python-project-structure",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "python-project-structure",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "307d70e3-bcfd-4e0f-b567-606b4b00506d",
+  "path": "systematic-debugging",
+  "path_key": "systematic-debugging",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "systematic-debugging",
+    "branch": null
+  }
+}

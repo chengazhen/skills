@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "15e758f8-5004-4be8-8f22-e0bd578b09c8",
+  "path": "python-code-style",
+  "path_key": "python-code-style",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "python-code-style",
+    "branch": null
+  }
+}

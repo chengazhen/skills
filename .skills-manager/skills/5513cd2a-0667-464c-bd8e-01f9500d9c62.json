@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5513cd2a-0667-464c-bd8e-01f9500d9c62",
+  "path": "global-feedback",
+  "path_key": "global-feedback",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "global-feedback",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9a7fc89b-867d-4773-978b-2859f017b695",
+  "path": "nodejs-backend-patterns",
+  "path_key": "nodejs-backend-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/chengazhen/skills",
+    "subpath": "nodejs-backend-patterns",
+    "branch": null
+  }
+}
