@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2804b4d3-47a1-4949-8bfc-34ced080f54b",
+  "path": "nodejs-backend-patterns",
+  "path_key": "nodejs-backend-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "wshobson/agents/nodejs-backend-patterns",
+    "subpath": "plugins\\javascript-typescript\\skills\\nodejs-backend-patterns",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "afb35bbe-af1a-4aa6-86e0-fffe193942a8",
+  "path": "api-design-principles",
+  "path_key": "api-design-principles",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "wshobson/agents/api-design-principles",
+    "subpath": "plugins\\backend-development\\skills\\api-design-principles",
+    "branch": null
+  }
+}

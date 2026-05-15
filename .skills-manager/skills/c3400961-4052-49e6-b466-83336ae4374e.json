@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c3400961-4052-49e6-b466-83336ae4374e",
+  "path": "python-packaging",
+  "path_key": "python-packaging",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "wshobson/agents/python-packaging",
+    "subpath": "plugins\\python-development\\skills\\python-packaging",
+    "branch": null
+  }
+}

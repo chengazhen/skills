@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8c0124e9-aa47-49b5-a6c1-e6845f97c585",
+  "path": "python-performance-optimization",
+  "path_key": "python-performance-optimization",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "wshobson/agents/python-performance-optimization",
+    "subpath": "plugins\\python-development\\skills\\python-performance-optimization",
+    "branch": null
+  }
+}

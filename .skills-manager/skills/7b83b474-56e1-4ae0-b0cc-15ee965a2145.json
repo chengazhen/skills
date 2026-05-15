@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7b83b474-56e1-4ae0-b0cc-15ee965a2145",
+  "path": "dataverse-python-production-code",
+  "path_key": "dataverse-python-production-code",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "github/awesome-copilot/dataverse-python-production-code",
+    "subpath": "skills\\dataverse-python-production-code",
+    "branch": null
+  }
+}
