@@ -8,7 +8,7 @@
     "codebuddy": true,
     "codex": true,
     "cursor": true,
-    "github_copilot": true,
+    "github_copilot": false,
     "opencode": true,
     "trae": true,
     "trae_cn": true
