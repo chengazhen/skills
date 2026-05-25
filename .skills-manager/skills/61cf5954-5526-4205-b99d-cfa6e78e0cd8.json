@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "61cf5954-5526-4205-b99d-cfa6e78e0cd8",
+  "path": "tapd",
+  "path_key": "tapd",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "abcfed/claude-marketplace/tapd",
+    "subpath": "plugins\\abc-development-plugin\\skills\\tapd",
+    "branch": null
+  }
+}

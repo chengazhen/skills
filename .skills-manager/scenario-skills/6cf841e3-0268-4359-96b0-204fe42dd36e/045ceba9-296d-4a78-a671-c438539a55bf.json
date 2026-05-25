@@ -9,8 +9,10 @@
     "codex": true,
     "cursor": true,
     "github_copilot": true,
+    "openclaw": true,
     "opencode": true,
     "trae": true,
-    "trae_cn": true
+    "trae_cn": true,
+    "windsurf": true
   }
 }
