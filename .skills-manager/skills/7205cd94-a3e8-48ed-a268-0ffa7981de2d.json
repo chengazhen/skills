@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7205cd94-a3e8-48ed-a268-0ffa7981de2d",
+  "path": "optimize-network",
+  "path_key": "optimize-network",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/majiayu000/claude-arsenal/tree/main/skills/optimize-network",
+    "subpath": "skills\\optimize-network",
+    "branch": "main"
+  }
+}
