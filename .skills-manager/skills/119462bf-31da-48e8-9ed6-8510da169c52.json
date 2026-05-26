@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "119462bf-31da-48e8-9ed6-8510da169c52",
+  "path": "wechat-article-publisher",
+  "path_key": "wechat-article-publisher",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "iamzifei/wechat-article-publisher-skill/wechat-article-publisher",
+    "subpath": "skills\\wechat-article-publisher",
+    "branch": null
+  }
+}
