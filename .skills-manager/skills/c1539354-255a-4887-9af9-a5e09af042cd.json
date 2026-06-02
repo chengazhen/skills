@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c1539354-255a-4887-9af9-a5e09af042cd",
+  "path": "notion-api",
+  "path_key": "notion-api",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "intellectronica/agent-skills/notion-api",
+    "subpath": "skills\\notion-api",
+    "branch": null
+  }
+}
