@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ee64848b-f0d2-403a-89dd-85f9ed69bb1a",
+  "path": "paddleocr-text-recognition",
+  "path_key": "paddleocr-text-recognition",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "aidenwu0209/paddleocr-skills/paddleocr-text-recognition",
+    "subpath": "skills\\paddleocr-text-recognition",
+    "branch": null
+  }
+}

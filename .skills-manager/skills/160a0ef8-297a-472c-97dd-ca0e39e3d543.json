@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "160a0ef8-297a-472c-97dd-ca0e39e3d543",
+  "path": "smart-ocr",
+  "path_key": "smart-ocr",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "claude-office-skills/skills/smart-ocr",
+    "subpath": "smart-ocr",
+    "branch": null
+  }
+}
