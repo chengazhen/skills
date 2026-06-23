@@ -89,13 +89,19 @@ class TAPDClient:
         separator = '&' if '?' in url else '?'
         url = f"{url}{separator}s=mcp"
 
+        proxies = {}
+        proxy_url = os.getenv("TAPD_PROXY") or os.getenv("HTTPS_PROXY") or os.getenv("https_proxy")
+        if proxy_url:
+            proxies = {"http": proxy_url, "https": proxy_url}
+
         response = requests.request(
             method=method,
             url=url,
             headers=self.headers,
             params=params,
             json=data,
-            timeout=30
+            timeout=30,
+            proxies=proxies
         )
         response.raise_for_status()
         return response.json()

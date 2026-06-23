@@ -9,11 +9,13 @@
     "codex": true,
     "cursor": true,
     "github_copilot": true,
+    "hermes": true,
     "openclaw": true,
     "opencode": true,
     "qoder": true,
     "trae": true,
     "trae_cn": true,
-    "windsurf": true
+    "windsurf": true,
+    "workbuddy": true
   }
 }

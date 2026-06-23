@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2b6dfe90-469c-405e-86d9-a65c71cc1ec5",
+  "path": "gaokao-advisor",
+  "path_key": "gaokao-advisor",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/ZeoxCode/gaokao-advisor-skill",
+    "subpath": "gaokao-advisor",
+    "branch": null
+  }
+}
