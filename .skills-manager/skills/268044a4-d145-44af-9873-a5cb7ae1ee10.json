@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "268044a4-d145-44af-9873-a5cb7ae1ee10",
+  "path": "emotion-driven-cinematic-colossal-prompt-2",
+  "path_key": "emotion-driven-cinematic-colossal-prompt-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

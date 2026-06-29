@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ce1937e8-ef3a-4672-8a5b-fa871f633a8b",
+  "path": "workbuddy-checkin",
+  "path_key": "workbuddy-checkin",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/GitOfUser/workbuddy-checkin",
+    "subpath": null,
+    "branch": null
+  }
+}
