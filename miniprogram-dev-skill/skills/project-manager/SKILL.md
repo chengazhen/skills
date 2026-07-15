@@ -17,7 +17,7 @@ description: 管理微信开发者工具已导入项目列表：查询、导入�
 
 不适合：
 
-- 打开/关闭项目窗口（用 `initializer` 的 `project_open_window` / `project_close_window`）
+- 打开/关闭项目窗口（用 `initializer` 的 `open_project_window` / `close_project_window`）
 - 未登录时操作（需先 `check_devtools_status` 确认 `openid`）
 
 ## 运行前检查
@@ -29,7 +29,7 @@ description: 管理微信开发者工具已导入项目列表：查询、导入�
 1. `project_list` 查看当前列表（默认 `miniprogram` 主列表）
 2. 需要纳入新项目时 `project_import --project <absPath>`
 3. 需要从列表移除时 `project_remove --project <absPath>`（会弹 MCP 操作确认，等待用户点允许）
-4. 若要编译/调试，再切 `initializer` 执行 `project_open_window`
+4. 若要编译/调试，再切 `initializer` 执行 `open_project_window`
 
 ## 工具列表
 
@@ -58,8 +58,8 @@ wechatide -c <clientName> -t project_import --project <absPath>
 | `project` | string | 是 | 项目本地绝对路径 |
 
 - 路径已在列表中：`alreadyImported: true`，视为成功
-- 不做 `project_open_window` 的 appid 权限预检；目录无效时由底层报错
-- 导入后若要开发，仍需 `project_open_window`
+- 不做 `open_project_window` 的 appid 权限预检；目录无效时由底层报错
+- 导入后若要开发，仍需 `open_project_window`
 
 ---
 
@@ -73,7 +73,7 @@ wechatide -c <clientName> -t project_remove --project <absPath>
 |------|------|------|------|
 | `project` | string | 是 | 要从列表移除的项目路径 |
 
-- 触发 DevTools `mcp_action_auth` 确认弹窗，用户拒绝则返回 `User denied`
+- 触发 微信开发者工具 `mcp_action_auth` 确认弹窗，用户拒绝则返回 `User denied`
 - 只从列表移除，**不删除磁盘上的项目文件**
 - 若该项目窗口仍打开，会一并关闭该项目窗口
 - 云存储项目返回 `CLOUD_PROJECT_NOT_SUPPORTED`
@@ -83,6 +83,6 @@ wechatide -c <clientName> -t project_remove --project <absPath>
 | 工具 | 作用 |
 |------|------|
 | `project_import` | 仅写入项目列表 |
-| `project_open_window` | 校验 appid + 导入（如需）+ 打开模拟器窗口 |
-| `project_close_window` | 关闭窗口，列表项仍在 |
-| `project_remove` | 从列表移除，可不关整个 DevTools |
+| `open_project_window` | 校验 appid + 导入（如需）+ 打开模拟器窗口 |
+| `close_project_window` | 关闭窗口，列表项仍在 |
+| `project_remove` | 从列表移除，可不关整个 微信开发者工具 |

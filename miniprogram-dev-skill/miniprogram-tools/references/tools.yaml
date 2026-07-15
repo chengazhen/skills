@@ -1,13 +1,12 @@
 {
-  "registryVersion": "0.2.0",
   "defaults": {
     "timeoutMs": 20000
   },
   "tools": [
     {
-      "id": "project_open_window",
+      "id": "open_project_window",
       "name": "打开项目窗口",
-      "summary": "打开包含模拟器的项目窗口，自动导入到项目列表（如尚未导入）。调用前会校验项目根目录 project.config.json、通过 appid 属性预检触发 token 刷新、校验 appid 以及当前登录用户的 AppID 权限。",
+      "summary": "打开包含模拟器的项目窗口。如果之前窗口已存在，则不打开新窗口，直接返回已打开的窗口 ID",
       "group": "project",
       "source": {
         "type": "devtools"
@@ -19,18 +18,18 @@
         "project": {
           "type": "string",
           "required": true,
-          "description": "项目本地绝对路径；根目录必须包含 project.config.json，且完成 appid 属性预检后 appid 属于当前登录用户"
+          "description": "项目本地绝对路径；根目录必须包含 project.config.json"
         }
       },
       "execution": {
         "transport": "skill_call",
-        "toolName": "project_open_window"
+        "toolName": "open_project_window"
       }
     },
     {
-      "id": "project_close_window",
+      "id": "close_project_window",
       "name": "关闭项目窗口",
-      "summary": "关闭包含模拟器的项目窗口，不等于关闭整个 DevTools。",
+      "summary": "关闭包含模拟器的项目窗口，不等于完全退出微信开发者工具",
       "group": "project",
       "source": {
         "type": "devtools"
@@ -41,12 +40,13 @@
       "inputSchema": {
         "project": {
           "type": "string",
-          "required": true
+          "required": true,
+          "description": "项目本地绝对路径；根目录必须包含 project.config.json"
         }
       },
       "execution": {
         "transport": "skill_call",
-        "toolName": "project_close_window"
+        "toolName": "close_project_window"
       }
     },
     {
@@ -175,8 +175,8 @@
     },
     {
       "id": "check_devtools_status",
-      "name": "读取 DevTools 状态",
-      "summary": "读取 DevTools 当前登录态、openid 和当前运行的 skill 版本号；如果传入当前 agent 使用的 skill 版本，则检查两者是否匹配。skill-cli 连接失败时会用当前 clientName 自动 auth 一次并重试。",
+      "name": "读取微信开发者工具状态",
+      "summary": "读取微信开发者工具登录态、openid 和当前运行的 skill 版本号；连接失败时会用当前 clientName 自动 auth 一次并重试。",
       "group": "runtime",
       "source": {
         "type": "devtools"
@@ -188,7 +188,7 @@
         "version": {
           "type": "string",
           "required": false,
-          "description": "当前调用侧 agent 加载的 miniprogram-dev-skill/skill.yaml 文件中的 version 字段值；不传则跳过版本对比提醒。CLI 使用 --skill-version"
+          "description": "当前调用侧 agent 加载的 miniprogram-dev-skill/skill.yaml 文件中的 version 字段值；不传则跳过版本对比提醒。"
         }
       },
       "execution": {
@@ -233,17 +233,30 @@
           "type": "string",
           "required": false,
           "enum": [
-            "window"
+            "window",
+            "image"
           ],
           "description": "二维码展示方式。使用 window 在新窗口中展示。"
         },
         "qr-output": {
           "type": "string",
-          "required": false
+          "required": false,
+          "description": "二维码图片以文件形式输出的目标位置。"
         },
-        "info-output": {
+        "page-path": {
           "type": "string",
-          "required": false
+          "required": false,
+          "description": "指定的预览页面路径，如 page/index"
+        },
+        "query": {
+          "type": "string",
+          "required": false,
+          "description": "指定的预览页面的参数参数，如 a=b，多个参数用 & 连接，如 a=b&c=d"
+        },
+        "scene": {
+          "type": "string",
+          "required": false,
+          "description": "指定的预览进入的场景值，如 1001"
         }
       },
       "execution": {
@@ -254,7 +267,7 @@
     {
       "id": "auto_preview",
       "name": "推送手机预览",
-      "summary": "把预览直接推送到开发者微信，无需生成二维码文件。只需传 project 参数，不要传额外的本地输出路径参数。",
+      "summary": "把预览直接推送到开发者微信，无需生成二维码文件。适合”直接发到手机看”场景。只需传 project 参数，可选传 page-path、scene、query 参数，不要传额外的本地输出路径参数。",
       "group": "preview",
       "source": {
         "type": "devtools"
@@ -266,6 +279,21 @@
         "project": {
           "type": "string",
           "required": true
+        },
+        "page-path": {
+          "type": "string",
+          "required": false,
+          "description": "指定的预览页面路径，如 page/index"
+        },
+        "query": {
+          "type": "string",
+          "required": false,
+          "description": "指定的预览页面的参数参数，如 a=b，多个参数用 & 连接，如 a=b&c=d"
+        },
+        "scene": {
+          "type": "string",
+          "required": false,
+          "description": "指定的预览进入的场景值，如 1001"
         }
       },
       "execution": {
@@ -765,7 +793,7 @@
     {
       "id": "miniprogram_upload",
       "name": "发布体验版",
-      "summary": "上传代码包发布体验版。仅在用户明确要求「发布体验版」时调用。",
+      "summary": "上传代码包(发布体验版)。仅在用户明确要求「上传代码」或者「发布体验版」时调用。如果该用户的代码包已经被选为体验版，会需要用户手动确认才能上传。",
       "group": "app",
       "source": {
         "type": "devtools"
@@ -781,10 +809,11 @@
         "version": {
           "type": "string",
           "required": true,
-          "description": "体验版版本号。CLI 使用 --upload-version"
+          "description": "上传的代码版本号。如 1.0.0"
         },
         "desc": {
           "type": "string",
+          "description": "上传的代码版本的描述信息。",
           "required": false
         }
       },
@@ -1164,36 +1193,9 @@
       }
     },
     {
-      "id": "compile_js",
-      "name": "编译单个 JS 文件",
-      "summary": "获取单个 JS/TS 文件编译结果摘要。",
-      "group": "compile",
-      "source": {
-        "type": "devtools"
-      },
-      "scenes": [
-        "compiler"
-      ],
-      "inputSchema": {
-        "project": {
-          "type": "string",
-          "required": true
-        },
-        "filePath": {
-          "type": "string",
-          "required": true,
-          "description": "待编译 JS/TS 文件相对路径（相对于 miniprogramRoot 或 pluginRoot），如 pages/index/index.js"
-        }
-      },
-      "execution": {
-        "transport": "skill_call",
-        "toolName": "compile_js"
-      }
-    },
-    {
       "id": "compile_wxml",
       "name": "编译 WXML 模板",
-      "summary": "编译 WXML 模板文件，返回编译结果。",
+      "summary": "只读获取 WXML 模板的编译结果摘要，用于诊断模板编译产物；不是整页编译或预览。",
       "group": "compile",
       "source": {
         "type": "devtools"
@@ -1210,6 +1212,15 @@
           "type": "string",
           "required": true,
           "description": "待编译 WXML 文件相对路径（相对于 miniprogramRoot 或 pluginRoot），如 pages/index/index.wxml"
+        },
+        "compileType": {
+          "type": "string",
+          "required": false,
+          "enum": [
+            "miniprogram",
+            "plugin"
+          ],
+          "description": "编译类型：miniprogram(默认) 或 plugin"
         }
       },
       "execution": {
@@ -1220,7 +1231,7 @@
     {
       "id": "compile_wxss",
       "name": "编译 WXSS 样式",
-      "summary": "编译 WXSS 样式文件，返回编译结果。",
+      "summary": "只读获取 WXSS 样式的编译结果摘要，用于诊断样式编译产物；不是整页编译或预览。",
       "group": "compile",
       "source": {
         "type": "devtools"
@@ -1237,6 +1248,15 @@
           "type": "string",
           "required": true,
           "description": "待编译 WXSS 文件相对路径（相对于 miniprogramRoot 或 pluginRoot），如 pages/index/index.wxss"
+        },
+        "compileType": {
+          "type": "string",
+          "required": false,
+          "enum": [
+            "miniprogram",
+            "plugin"
+          ],
+          "description": "编译类型：miniprogram(默认) 或 plugin"
         }
       },
       "execution": {
@@ -1295,7 +1315,7 @@
     {
       "id": "simulator_open_page",
       "name": "编译并打开指定页面",
-      "summary": "触发项目窗口模拟器编译并打开指定页面，不修改持久编译条件列表。",
+      "summary": "触发项目窗口模拟器编译并打开指定页面。",
       "group": "simulator",
       "source": {
         "type": "devtools"
@@ -1306,19 +1326,23 @@
       "inputSchema": {
         "project": {
           "type": "string",
-          "required": true
+          "required": true,
+          "description": "项目绝对路径"
         },
         "page": {
           "type": "string",
-          "required": true
+          "required": true,
+          "description": "页面路径（如 pages/index/index）"
         },
         "query": {
           "type": "string",
-          "required": false
+          "required": false,
+          "description": "页面参数（如 id=1&type=test）"
         },
         "scene": {
           "type": "number",
-          "required": false
+          "required": false,
+          "description": "场景值（默认 1001）"
         }
       },
       "execution": {
